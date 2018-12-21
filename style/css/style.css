@@ -1,0 +1,38 @@
+body { font-size: 14px; font-family: 'Lato', sans-serif; font-weight: 400px; }
+
+a { text-decoration: none; color: #444; }
+
+a:hover, a:active { text-decoration: none; color: #444; }
+
+img { max-width: 100%; }
+
+nav { background-color: #2D82C3; }
+nav .navbar-brand { padding: 0; }
+nav .navbar-brand img { height: 50px; padding-top: 5px; }
+nav .search-box { float: right; width: 500px; margin: 13px 0; }
+
+@media (max-width: 768px) { nav .search-box { width: auto; padding: 0 5px; }
+  #page { margin-top: 6em !important; } }
+#page { margin-top: 5em; }
+#page .primary-title { font-weight: 700; font-size: 25px; margin: 2em 0 0 0; color: #2D82C3; }
+#page .control-box { width: 100%; padding: 10px; border: 1px solid #444; display: inline-block; height: 110px; overflow: hidden; }
+#page .control-box i.fa { color: #2D82C3; }
+#page .control-box .left-box { width: 70%; float: left; }
+#page .control-box .left-box .title { padding: 5px; font-weight: 700; margin: 0; }
+#page .control-box .left-box .desc-box { margin: 0; padding: 5px; font-size: 15px; }
+#page .control-box .right-box { width: 29%; float: left; }
+#page .control-box .right-box .icon-box { padding: 1em; }
+#page .control-box .haft-box { width: 49%; float: left; }
+#page .control-box .haft-box .sub-title { font-weight: 700px; margin: 0; }
+#page .job .list-job { padding: 0; list-style: none; }
+#page .job .list-job li { padding: 5px; border-bottom: 1px solid #ccc; }
+#page .job .list-job li .title-job { margin: 0; font-weight: 600; }
+
+footer { background-color: #2D82C3; padding: 5px; color: #fff; }
+footer .ft-ul { list-style: none; }
+footer .ft-ul li { padding: 5px; }
+footer .ft-ul .ft-about { font-weight: 600; }
+footer .ft-ul .ft-company-name h3 { font-weight: 700; font-size: 30px; margin: 0; }
+footer .ft-logo img { margin: 2em 0; }
+
+/*# sourceMappingURL=style.css.map */
